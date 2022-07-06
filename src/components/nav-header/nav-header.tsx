@@ -1,4 +1,5 @@
 import { MenuButton } from '../menu-button/menu-button';
+import { NavbarControls } from '../navbar-controls/navbar-controls';
 import './nav-header.scss';
 
 export function NavHeader() {
@@ -13,6 +14,8 @@ export function NavHeader() {
           <a className="main-nav__link" href="/tv-shows">TV Shows</a>
           <a className="main-nav__link" href="/movies">Movies</a>
         </nav>
+
+        <NavbarControls />
       </div>
     </header>
   );
