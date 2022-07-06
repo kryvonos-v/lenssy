@@ -1,14 +1,14 @@
-import { MenuButton } from '../menu-button/menu-button';
+import { NavbarBurger } from '../navbar-burger/navbar-burger';
 import { NavbarControls } from '../navbar-controls/navbar-controls';
-import './nav-header.scss';
+import './navbar.scss';
 
-export function NavHeader() {
+export function Navbar() {
   return (
-    <header className="nav-header">
-      <div className="nav-header__content container">
-        <MenuButton className="nav-header__menu-btn" />
-        <a className="nav-logo" href="/">lens</a>
-        <span className="nav-separator" />
+    <header className="navbar">
+      <div className="navbar__content container">
+        <NavbarBurger className="navbar__menu-btn" />
+        <a className="navbar-logo" href="/">lens</a>
+        <span className="navbar-separator" />
         <nav className="main-nav">
           <a className="main-nav__link" href="/">Home</a>
           <a className="main-nav__link" href="/tv-shows">TV Shows</a>
