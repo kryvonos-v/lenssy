@@ -1,7 +1,7 @@
-import './search-bar.scss';
 import { FormEvent, useState } from 'react';
 import names from 'classnames';
 import { ReactComponent as SearchIcon } from '../../assets/icons/search.svg';
+import './search-bar.scss';
 
 interface SearchFormElements extends HTMLFormControlsCollection {
   query: HTMLInputElement;
