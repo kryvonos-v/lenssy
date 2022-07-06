@@ -1,8 +1,10 @@
 import './styles/styles.scss';
+import { NavHeader } from './components/nav-header/nav-header';
 
 function App() {
   return (
     <div className="App">
+      <NavHeader />
       <main className="container">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu diam dui. Donec bibendum tristique ultricies. Nulla mauris urna, tincidunt in velit a, dictum malesuada dui. Quisque ac pulvinar turpis. Ut quis purus non felis vulputate auctor. Morbi porttitor nisl convallis, iaculis lacus sed, tincidunt enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras lacus elit, elementum eget tincidunt quis, gravida non quam. Phasellus libero purus, aliquam eu neque tincidunt, sodales dapibus neque. Vivamus rhoncus tempus magna, vitae egestas sapien bibendum et. Aliquam fermentum tincidunt tempor.</p>
 

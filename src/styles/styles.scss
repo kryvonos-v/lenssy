@@ -19,7 +19,10 @@ body {
 }
 
 :root {
-  --header-height: 52px;
+  --header-height: 48px;
+  @media (min-width: 768px) {
+    --header-height: 52px;
+  }
 }
 
 .container {
