@@ -1,3 +1,15 @@
+:root {
+  // Problem: height transition is applied to navbar when we swith between mobile and desktops views.
+  // Solution: height property of navbar stays the same for mobile and desktop,
+  // but min-height gets changed.
+  --navbar-height-mobile: 48px;
+  --navbar-height-desktop: 52px;
+  --navbar-height: var(--navbar-height-mobile);
+  @media (min-width: 768px) {
+    --navbar-height: var(--navbar-height-desktop);
+  }
+}
+
 .navbar {
   position: relative;
   background-color: #000;

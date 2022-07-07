@@ -6,7 +6,7 @@ export function NavbarControls() {
   return (
     <div className="navbar-controls">
       <button className="navbar-controls__item">
-        <SearchIcon className="navbar-controls__search" width="22" stroke="#fff" stroke-width="1" />
+        <SearchIcon className="navbar-controls__search" width="22" stroke="#fff" strokeWidth="1" />
       </button>
       <button className="navbar-controls__item">
         <UserIcon className="navbar-controls__user" width="25" fill="#fff" />

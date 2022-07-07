@@ -1,7 +1,7 @@
 .navbar-controls {
   display: inline-flex;
   padding-top: 1px;
-  height: var(--header-height);
+  height: var(--navbar-height);
   @media (max-width: 767px) {
     position: absolute;
     top: 0;
