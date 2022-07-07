@@ -1,10 +1,18 @@
-import { Fragment, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
+import { useMedia } from '../../libs/cssom/use-media';
 import { NavbarBurger } from '../navbar-burger/navbar-burger';
 import { NavbarControls } from '../navbar-controls/navbar-controls';
 import './navbar.scss';
 
 export function Navbar() {
   let [isMenuOpen, setIsMenuOpen] = useState(false);
+  const isMobile = useMedia('(max-width: 767px)');
+
+  useEffect(() => {
+    if (!isMobile) {
+      setIsMenuOpen(false);
+    }
+  }, [isMobile]);
 
   return (
     <Fragment>

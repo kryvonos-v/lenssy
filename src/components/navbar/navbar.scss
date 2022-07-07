@@ -17,8 +17,8 @@
   width: 100%;
   height: var(--navbar-height-mobile);
   background-color: #000;
-  transition: height 560ms cubic-bezier(0.52, 0.16, 0.24, 1);
   @media (max-width: 767px) {
+    transition: height 560ms cubic-bezier(0.52, 0.16, 0.24, 1);
     overflow-y: hidden;
   }
   @media (min-width: 768px) {
